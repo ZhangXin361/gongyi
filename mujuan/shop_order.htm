@@ -1,0 +1,131 @@
+<html>
+
+<head>
+<title>填写信息</title>
+<style>
+li{ list-style:none;}
+a{ text-decoration:none;}
+#header{
+	width:1000px;
+	height:101px;
+	margin:0 auto;
+	background:url(images/phone.gif) no-repeat right 40px;
+	position:relative;
+	}
+#header h1{
+	width:421px;
+	height:101px;
+	background:url(images/logo1.jpg) no-repeat;
+	text-indent:-9999px;
+	}
+#header ul{
+	position:absolute;
+	top:0;
+	right:0;
+	}
+#header ul li{
+	float:left;
+	color:#999;
+	line-height:25px;
+	font-size:12px;
+	margin:0 5px;
+	}
+#header ul li a{
+	color:#999;
+	line-height:25px;
+	padding:0 5px;
+	}	
+#footer{
+	background:#e1e1e1;
+	border-top:#CCC solid 2px;
+	text-align:center;
+	font-size:12px;
+	color:#666;
+	line-height:30px;
+	padding:15px;
+	font-family:Arial;
+	}
+</style>
+</head>
+
+<body>
+
+<div id="header">
+    	<h1>爱心公益网</h1>
+        <ul>
+        	<li><i class="iconfont">&#xe602;</i> 您好，欢迎参与爱心公益 |</li>
+         
+            <li><i class="iconfont">&#xe601;</i> <a href="../index/index.html">注销</a></li>
+        </ul>
+</div>
+<div style="height:10px; background-color:#C00; position:relative;"></div>
+
+<form method="POST" action="shop_order.jsp" style="background:url(images/b.jpg)">
+    <div align="center">
+    <center>
+	<p align="center"><font color="#0000FF" size="10">请填写信息</font></p>
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber1" height="196">
+      <tr>
+        <td width="36%" bgcolor="#99CCFF" height="19">
+        <p align="center"><font size="2"><b>*姓名</b></font></td>
+        <td width="64%" height="19"><input type="text" name="name" size="20"></td>
+      </tr>
+      <tr>
+        <td width="36%" bgcolor="#99CCFF" height="19">
+        <p align="center"><b><font size="2">*电话</font></b></td>
+        <td width="64%" height="19"><input type="text" name="phone" size="47"></td>
+      </tr>
+      <tr>
+        <td width="36%" bgcolor="#99CCFF" height="19">
+        <p align="center"><font size="2"><b>*邮编</b></font></td>
+        <td width="64%" height="19"><input type="text" name="youbian" size="47"></td>
+      </tr>
+      <tr>
+        <td width="36%" bgcolor="#99CCFF" height="19">
+        <p align="center"><b><font size="2">*住址</font></b></td>
+        <td width="64%" height="19"><input type="text" name="address" size="47"></td>
+      </tr>
+      <tr>
+        <td width="36%" bgcolor="#99CCFF" height="19">
+        <p align="center"><b><font size="2">E-MAIL</font></b></td>
+        <td width="64%" height="19"><span style="background-color: #99CCFF"><input type="text" name="email" size="47"></span></td>
+      </tr>
+      <tr>
+        <td width="36%" bgcolor="#99CCFF" height="20">
+        <p align="center"><font size="2"><b>*邮递方式</b></font></td>
+        <td width="64%" height="20">&nbsp;&nbsp; 
+        <input type="radio" value="普通" name="postway" checked>&nbsp;普通
+        <input type="radio" value="特快专递" name="postway">特快专递</td>
+      </tr>
+      <tr>
+        <td width="36%" bgcolor="#99CCFF" height="60">
+        <p align="center"><b><font size="2">说明</font></b></td>
+        <td width="64%" height="60"><textarea rows="11" name="memo" cols="50"></textarea></td>
+      </tr>
+      <tr>
+        <td width="36%" height="21">
+        <p align="center"><input type="submit" value="确认" name="B1"></td>
+        <td width="64%" height="21">
+        <p align="center"><input type="reset" value="重写" name="B2"></td>
+      </tr>
+    </table>
+    </center>
+  </div>
+
+	<p align="center"><font color="#0000FF">以上带*的为必填项</font></p>
+
+<p align="center"><a href="list.jsp">返回募捐平台</a></p>
+
+<br></br>
+
+
+</form>
+
+
+<div id="footer">
+	<p>CopyRight &copy; 2020 Charity Network</p>
+    <p>爱心公益网 版权所有</p>
+</div>
+</body>
+
+</html>
